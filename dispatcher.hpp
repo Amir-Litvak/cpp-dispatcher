@@ -1,5 +1,5 @@
-#ifndef __RD12123_DISPATCHER_HPP__
-#define __RD12123_DISPATCHER_HPP__
+#ifndef __DISPATCHER_HPP__
+#define __DISPATCHER_HPP__
 
 #if __cplusplus <= (199711L)
 #define noexcept throw()
@@ -8,7 +8,7 @@
 
 #include <list> // list
 
-namespace ilrd
+namespace dispatcher
 {
     template <class EVENT>
     class Dispatcher;
@@ -167,6 +167,6 @@ namespace ilrd
         }
     }
 
-} // namespace ilrd
+} // namespace dispatcher
 
-#endif //__RD12123_DISPATCHER_HPP__
+#endif //__DISPATCHER_HPP__
