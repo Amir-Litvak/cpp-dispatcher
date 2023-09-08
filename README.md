@@ -1,1 +1,2 @@
-# cpp-dispatcher
+# Dispatcher
+A dispatcher (design pattern) template in C++
